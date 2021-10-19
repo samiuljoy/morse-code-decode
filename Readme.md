@@ -4,6 +4,10 @@ From terminal run
 
 ```
 $ sh morse.sh
+
+sh morse.sh -e 'this is a toy'  =  encode into morse code
+sh morse.sh -d '- .... .. ... .. ... -. - --- -.--'  = decode morse code to alphabets
+sh morse.sh -ea 'this is a toy' = encode into audio mp3 form
 ```
 
-for usage
+Encode with `-e` flag, decode with `-d` flag and encode to a audio file with `-ea` flag
