@@ -11,3 +11,9 @@ sh morse.sh -ea 'this is a toy' = encode into audio mp3 form
 ```
 
 Encode with `-e` flag, decode with `-d` flag and encode to a audio file with `-ea` flag
+
+# Dependencies
+
+* Unix Environment
+
+* ffmpeg
